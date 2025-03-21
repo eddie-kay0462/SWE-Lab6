@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Buttons</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .button-link {
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.2s;
+            min-width: 200px;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .button-link:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        h1, h2 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meet Our Team</h1>
+    <h2>Click to learn more about each team member</h2>
+    <div class="button-container">
+        <a href="edward.html" class="button-link">Edward</a>
+        <a href="nana.html" class="button-link">Nana Amoako</a>
+        <a href="kelvin.html" class="button-link">Kelvin</a>
+        <a href="nhyira.html" class="button-link">Nhyira</a>
+        <a href="ronelle.html" class="button-link">Ronelle</a>
+    </div>
+</body>
+</html>
